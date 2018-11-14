@@ -1,5 +1,4 @@
 body {
-  background-color: 200, 200, 200;
   font-weight: 400;
   color: 20, 20, 20;
   font-size: 18px;
@@ -44,8 +43,9 @@ a {
   background: #DBDBDB;
   color: #212529;
   padding: 10px;
+  margin: 20px;
   border-radius: 5px;
-  box-shadow: 2px, 2px, 2px;
+  box-shadow: 1px 2px 3px 2px grey;
   font-family: 'Francois One', sans-serif;
 }
 
@@ -93,15 +93,6 @@ ul {
   padding: 0px;
 }
 
-.container {
-  padding: 15px;
-  margin: 0 auto;
-  border: 10px;
-  background: white;
-  box-shadow: 2px, 2px, 2px;
-  border-radius: 0px;
-  width: 1000px;
-}
 
 .work-pics {
   width: 200px;
@@ -115,19 +106,34 @@ ul {
 }
 
 .card {
-  border: 20px solid white;
+  border: 20px;
   background: #F7F7F7;
   box-shadow: 2px, 2px, 2px;
   border-radius: 0px;
   text-align: center;
   padding: 30px;
   margin: 20px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner {
   background-image: url("images/1.png");
   height: 400px;
+  margin: 0, auto;
   background-position: top, center;
+}
+
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  background-image: url("images/samuel-zeller-686451-unsplash.jpg");
+  background-image: linear-gradient(to bottom right, #E6FDFE, #D9D7DD);
+  background-size: cover;
+  background-blend-mode: lighten;
+  border-radius: 0px;
+  width: cover;
 }
 
 @media (max-width: 960px) {
